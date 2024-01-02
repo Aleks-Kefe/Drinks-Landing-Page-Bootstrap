@@ -1,0 +1,48 @@
+/* #hero {
+    background: url('./images/bg2.jpg')center center no-repeat;
+    background-size: cover;
+} */
+
+#hero .container {
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+
+/* Style the header/navbar */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container .card img {
+    width: 100%;
+}
+
+.container .card {
+    height: 50%;
+}
+
+.container .card .card-order {
+    margin-right: 10px;
+}
+
+#other-products {
+    background-image: url('./images/general.jpg')center center no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: #a52a2a;
+}
+
+.container .social-icon img {
+    width: 20%;
+}
+
+.card .flex {
+    display: flex;
+}
